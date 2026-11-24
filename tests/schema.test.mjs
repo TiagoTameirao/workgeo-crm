@@ -1,0 +1,4 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {qualifySQL} from '../lib/db.mjs';
+test('separação dos schemas não altera aliases, colunas ou parâmetros',()=>{assert.equal(qualifySQL('SELECT COUNT(*) AS units FROM units','crm_production'),'SELECT COUNT(*) AS units FROM crm_production.units');assert.equal(qualifySQL('INSERT INTO contacts(id,unit_id) VALUES($1,$2)','crm_preview'),'INSERT INTO crm_preview.contacts(id,unit_id) VALUES($1,$2)');assert.equal(qualifySQL('CREATE TABLE IF NOT EXISTS units (id TEXT,company_id TEXT REFERENCES companies(id))','crm_preview'),'CREATE TABLE IF NOT EXISTS crm_preview.units (id TEXT,company_id TEXT REFERENCES crm_preview.companies(id))');assert.equal(qualifySQL('SELECT * FROM crm_production.units','crm_production'),'SELECT * FROM crm_production.units');});

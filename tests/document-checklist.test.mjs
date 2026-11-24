@@ -1,0 +1,44 @@
+import {test, before, after} from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtempSync, rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import path from 'node:path';
+process.env.DATABASE_URL=''; process.env.CRM_DATABASE_PROVIDER=''; process.env.NODE_ENV='test';
+const directory=mkdtempSync(path.join(tmpdir(),'workgeo-checklist-')); process.env.CRM_SQLITE_PATH=path.join(directory,'test.sqlite');
+const {migrate, query, get, close}=await import('../lib/db.mjs');
+const {seedDatabase}=await import('../lib/seed.mjs');
+const {saveRecord, changeAdministrativeCatalog, reviseAdministrativeDocument}=await import('../lib/domain.mjs');
+const {handoffWarnings}=await import('../lib/operation-flow.mjs');
+const admin={id:'reviewer-qa',name:'Revisor QA',role:'Administrador'};
+before(async()=>{ await migrate(); await seedDatabase(); await query('INSERT INTO users(id,name,email,password_hash,role) VALUES($1,$2,$3,$4,$5)',[admin.id,admin.name,'reviewer@example.invalid','unused',admin.role]); await changeAdministrativeCatalog(admin,{action:'add-client',unit_id:'unit-001'}); });
+after(async()=>{await close();rmSync(directory,{recursive:true,force:true});});
+const checklist={source:'Instrução validada QA',source_version:'2026-10',items:[{label:'Conferir competência',required:true,result:'Pendente',justification:''}]};
+test('conferência humana é vinculada à versão e mudança de contexto invalida o resultado',async()=>{
+ let document=await saveRecord(admin,'admin_documents',{unit_id:'unit-001',name:'Documento QA',owner:admin.name,due_date:'2026-11-10',revision:1,status:'Pendente',url:'https://example.invalid/oct.pdf',competence:'2026-10',document_checklist:checklist});
+ await assert.rejects(saveRecord(admin,'admin_documents',{status:'Pronto para envio'},document.id,document.version),/conferência/);
+ document=await saveRecord(admin,'admin_documents',{status:'Pronto para envio',document_checklist:{...checklist,reviewed_by:'fake',items:checklist.items.map(item=>({...item,result:'Conferido'}))}},document.id,document.version);
+ assert.equal(document.document_checklist.reviewed_by,admin.id);
+ const originalReview=document.document_checklist.reviewed_at;
+ document=await saveRecord(admin,'admin_documents',{notes:'Observação sem trocar documento'},document.id,document.version);
+ assert.equal(document.document_checklist.reviewed_at,originalReview);
+ await assert.rejects(saveRecord(admin,'admin_documents',{url:'https://example.invalid/nov.pdf'},document.id,document.version),/conferência/);
+ document=await saveRecord(admin,'admin_documents',{status:'Em revisão',url:'https://example.invalid/nov.pdf'},document.id,document.version);
+ assert.equal(document.document_checklist.items[0].result,'Pendente'); assert.equal(document.document_checklist.reviewed_by,null);
+ await assert.rejects(saveRecord(admin,'admin_documents',{document_checklist:{...checklist,items:[{...checklist.items[0],result:'Não se aplica'}]}},document.id,document.version),/Justifique/);
+ document=await saveRecord(admin,'admin_documents',{document_checklist:{...checklist,items:[{...checklist.items[0],result:'Não se aplica',justification:'Requisito não aplicável a esta competência'}]},status:'Pronto para envio'},document.id,document.version);
+ document=await saveRecord(admin,'admin_documents',{status:'Enviado',sent_date:'2026-10-28',protocol:'QA-only'},document.id,document.version);
+ document=await saveRecord(admin,'admin_documents',{status:'Devolvido',rejection_reason:'Competência incorreta',rejection_category:'Competência'},document.id,document.version);
+ const revision=await reviseAdministrativeDocument(admin,document.id,document.version,'2026-11-15');
+ assert.equal(revision.document_checklist.items[0].result,'Pendente'); assert.equal(revision.document_checklist.reviewed_at,null); assert.ok((await get('admin_documents',document.id)).protocol);
+});
+test('espera exige data e motivo; observação não reinicia o tempo da etapa',async()=>{
+ let unit=await get('units','unit-001');
+ await assert.rejects(saveRecord(admin,'units',{waiting_reason:'Cliente'},unit.id,unit.version),/juntos/);
+ unit=await saveRecord(admin,'units',{waiting_reason:'Cliente confirmará acesso',waiting_until:'2026-11-10'},unit.id,unit.version);
+ assert.equal(unit.waiting_until,'2026-11-10'); const stage=unit.stage_started_at;
+ unit=await saveRecord(admin,'units',{notes:'Revisão de observação'},unit.id,unit.version); assert.equal(unit.stage_started_at,stage);
+});
+test('passagem operacional aponta lacunas específicas sem bloquear serviço legado',()=>{
+ const warnings=handoffWarnings({status:'Processamento',scope:'Pátio',owner_id:'person',unit_id:'unit-001',scheduled_date:'2026-10-28',local_access:'Portaria'},[{unit_id:'unit-001'}]);
+ assert.deepEqual(warnings,['Registrar a data realizada em campo','Informar o link dos dados coletados']);
+});

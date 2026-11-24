@@ -1,0 +1,25 @@
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import {createWriteStream} from 'node:fs';
+import {Readable} from 'node:stream';
+import {pipeline} from 'node:stream/promises';
+import {createGunzip} from 'node:zlib';
+import path from 'node:path';
+import {readBackupBundle} from '../lib/backup-bundle.mjs';
+import {referencesFromSqlite} from '../lib/backup-sqlite-references.mjs';
+import {restoreSqlDump} from '../lib/restore-sql-dump.mjs';
+
+const [id,sourceArg,targetName]=process.argv.slice(2);
+if(!id||!sourceArg||!targetName||!/^[a-z0-9-]+$/.test(targetName))throw Error('Informe ID, pasta dos blocos e nome novo de restauração.');
+const key=Buffer.from(process.env.BACKUP_KEY||'','hex');if(key.length!==32)throw Error('Chave de backup indisponível.');
+const source=path.resolve(sourceArg),target=path.resolve('runtime',targetName);
+const store={async get(name){if(!/^[a-z0-9-]+$/.test(name))throw Error('Nome inválido');return readFile(path.join(source,name));}};
+const bundle=await readBackupBundle({id,key,store});
+await mkdir(target);await mkdir(path.join(target,'files'));
+const databasePath=path.join(target,'database.sqlite');
+if(bundle.databaseFormat==='sqlite-gzip')await pipeline(Readable.from(bundle.database()),createGunzip(),createWriteStream(databasePath,{flags:'wx'}));
+else await pipeline(Readable.from(bundle.database()),createGunzip(),async source=>restoreSqlDump(source,databasePath));
+const referenced=referencesFromSqlite(databasePath),archived=bundle.files.map(file=>file.storage_key).sort();
+if(JSON.stringify(referenced)!==JSON.stringify(archived))throw Error('Arquivos da cópia divergem das referências do banco.');
+for(const file of bundle.files)await pipeline(Readable.from(file.read()),createWriteStream(path.join(target,'files',file.storage_key),{flags:'wx'}));
+await writeFile(path.join(target,'verification.json'),JSON.stringify({verified:true,id,files:archived.length,integrity:'ok',foreign_key_errors:0},null,2),{flag:'wx'});
+console.log(JSON.stringify({verified:true,files:archived.length,restore_path:target}));

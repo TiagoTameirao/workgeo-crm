@@ -1,0 +1,219 @@
+[
+  {
+    "id": "unit-001",
+    "name": "Siderbom",
+    "resolved_url": "https://www.google.com/maps/place/Siderbom/@-19.7458855,-45.2383726,15z/data=!4m6!3m5!1s0x94b341e67fa8a331:0x1df2aaadb7c0b527!8m2!3d-19.7458855!4d-45.2383726!16s%2Fg%2F11v03mlrtf?entry=tts&g_ep=EgoyMDI1MDkyNC4wIPu8ASoASAFQAw%3D%3D&skid=a325b4bb-b5c2-4e1a-ad5c-6b3df2d2945e",
+    "latitude": -19.7458855,
+    "longitude": -45.2383726,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-002",
+    "name": "Empreser",
+    "resolved_url": "https://www.google.com/maps/place/EMPRESER/@-19.7648239,-45.2545267,14.5z/data=!4m6!3m5!1s0x94b340f79acde53b:0x67129c41cd8e996d!8m2!3d-19.7634939!4d-45.260695!16s%2Fg%2F11gzdz0pd?entry=tts&g_ep=EgoyMDI1MDkyOS4wIPu8ASoASAFQAw%3D%3D&skid=fbf55422-c76b-406e-adac-fd71bfb8a6ce",
+    "latitude": -19.7634939,
+    "longitude": -45.260695,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-003",
+    "name": "Novabrita-Britadora Nova Serrana",
+    "resolved_url": "https://www.google.com/maps/place/Novabrita-Britadora+Nova+Serrana/@-19.8950945,-44.9273513,14.5z/data=!4m6!3m5!1s0xa7560df5ccb1f9:0xbb51ac24278aa514!8m2!3d-19.8972283!4d-44.9330654!16s%2Fg%2F1ptw4sny9?entry=tts&g_ep=EgoyMDI1MTAwMS4wIPu8ASoASAFQAw%3D%3D&skid=86245a7f-b55f-42d7-80ec-a798ba04eb34",
+    "latitude": -19.8972283,
+    "longitude": -44.9330654,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-004",
+    "name": "MBL Materiais Básicos",
+    "resolved_url": "https://www.google.com/maps/place/MBL+Materiais+B%C3%A1sicos+Ltda./@-20.1004631,-44.833004,15z/data=!4m6!3m5!1s0xa0b1c032055847:0x6679ae7a1b4b5040!8m2!3d-20.1004631!4d-44.833004!16s%2Fg%2F1pzq39xg8?entry=tts&g_ep=EgoyMDI1MTAwMS4wIPu8ASoASAFQAw%3D%3D&skid=5672eacc-02fb-4884-bcab-b0c4491c5295",
+    "latitude": -20.1004631,
+    "longitude": -44.833004,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-005",
+    "name": "Itabrita - Britadora Itatiaiuçú",
+    "resolved_url": "https://www.google.com/maps/place/Itabrita+-+Britadora+Itatiaiu%C3%A7%C3%BA/@-20.0973572,-44.833677,15z/data=!4m6!3m5!1s0xa0b1d7fef9a37d:0x98a210c6c63919d1!8m2!3d-20.0973572!4d-44.833677!16s%2Fg%2F11f6t0r659?entry=tts&g_ep=EgoyMDI1MTAwMS4wIPu8ASoASAFQAw%3D%3D&skid=e763b05e-bab4-4259-b8ee-710c804f5f38",
+    "latitude": -20.0973572,
+    "longitude": -44.833677,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-006",
+    "name": "Campos Laminadora de Pneus",
+    "resolved_url": "https://www.google.com/maps/place/Transportadora+Kair%C3%B3s+Log+Ltda/@-20.1623309,-44.892946,14.75z/data=!4m6!3m5!1s0xa0a56ec5bfef67:0x492c1f1f82ca412d!8m2!3d-20.151947!4d-44.8754501!16s%2Fg%2F11c7085k6q?entry=tts&g_ep=EgoyMDI1MTAwMS4wIPu8ASoASAFQAw%3D%3D&skid=89768283-61ac-4323-b9cb-9bd159727048",
+    "latitude": -20.151947,
+    "longitude": -44.8754501,
+    "status": "Conflito no link Maps",
+    "issue": "O link fornecido para Campos Laminadora de Pneus aponta para Transportadora Kairós Log Ltda. Conferir localização antes de posicionar."
+  },
+  {
+    "id": "unit-007",
+    "name": "Maxima Reclicagem e Comercio LTDA",
+    "resolved_url": "https://www.google.com/maps/place/Maxima+Reciclagem+e+Comercio+Ltda/@-20.5691679,-44.8789571,15z/data=!4m6!3m5!1s0xa087ee64fa5d79:0x7bef6d239ab5961a!8m2!3d-20.5691679!4d-44.8789571!16s%2Fg%2F11hz0k3d3g?entry=tts&g_ep=EgoyMDI1MTAwMS4wIPu8ASoASAFQAw%3D%3D&skid=136ca8e4-1867-4142-8bd2-fe3e01efdf2d",
+    "latitude": -20.5691679,
+    "longitude": -44.8789571,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-008",
+    "name": "Replacol",
+    "resolved_url": "https://www.google.com/maps/place/Replacol/@-19.6964922,-44.8772443,15z/data=!4m6!3m5!1s0xa75d6369ccdb8d:0x5d971cb96f63b8b6!8m2!3d-19.6962849!4d-44.877349!16s%2Fg%2F11cn7sbbt3?entry=tts&g_ep=EgoyMDI1MTAwMS4wIPu8ASoASAFQAw%3D%3D&skid=6ebfd2a8-9198-4d47-b7f8-f47eded73106",
+    "latitude": -19.6962849,
+    "longitude": -44.877349,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-009",
+    "name": "Fundição Sideral",
+    "resolved_url": "https://www.google.com/maps/place/Fundi%C3%A7%C3%A3o+Sideral+-+Unidade+Filial/@-19.7210617,-44.8625526,15z/data=!4m6!3m5!1s0xa75d3ba4d15225:0xa10c9bcc90187964!8m2!3d-19.7210617!4d-44.8625526!16s%2Fg%2F11b6ggc3p2?entry=tts&g_ep=EgoyMDI1MTAwMS4wIPu8ASoASAFQAw%3D%3D&skid=8485f6f9-7676-470b-a1ce-385ce24a6231",
+    "latitude": -19.7210617,
+    "longitude": -44.8625526,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-010",
+    "name": "Comercial GTB Produtos Siderúrgicos",
+    "resolved_url": "https://www.google.com/maps/place/Comercial+GTB+Produtos+Sider%C3%BArgicos/@-19.7294321,-44.8696962,15z/data=!4m6!3m5!1s0xa75b93c361e9c9:0x270a2de92ea09c66!8m2!3d-19.7285963!4d-44.8706543!16s%2Fg%2F11kp_ybdgf?entry=tts&g_ep=EgoyMDI1MTAwMS4wIPu8ASoASAFQAw%3D%3D&skid=69686c80-a5fc-4dc8-a708-e6fe8a5fa465",
+    "latitude": -19.7285963,
+    "longitude": -44.8706543,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-011",
+    "name": "Siderúrgica Itabirito Ltda (Antiga VDL Siderurgia)",
+    "resolved_url": "https://www.google.com/maps/place/Sider%C3%BArgica+Itabirito+Ltda+(Antiga+VDL+Siderurgia)/@-20.2239882,-43.8044609,15z/data=!4m6!3m5!1s0xa6a9e8ab22f027:0xae3b36a8b799ef9b!8m2!3d-20.2239882!4d-43.8044609!16s%2Fg%2F11b6hrzm31?entry=tts&g_ep=EgoyMDI1MTAwNi4wIPu8ASoASAFQAw%3D%3D&skid=bcd1c241-ddca-4dfa-82d7-c72fdf543201",
+    "latitude": -20.2239882,
+    "longitude": -43.8044609,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-012",
+    "name": "Solid Mining",
+    "resolved_url": "https://www.google.com/maps/place/Solid+Mining/@-20.2761629,-43.758461,15z/data=!4m6!3m5!1s0xa401bcf424dd17:0x44bd723d2acd470b!8m2!3d-20.2761629!4d-43.758461!16s%2Fg%2F11sjb2pn71?entry=tts&g_ep=EgoyMDI1MTAwNi4wIPu8ASoASAFQAw%3D%3D&skid=46e64f8f-1aac-41fa-9113-d639bab2fc1e",
+    "latitude": -20.2761629,
+    "longitude": -43.758461,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-013",
+    "name": "Concretominas",
+    "resolved_url": "https://www.google.com/maps/place/Concretominas/@-20.2800962,-43.7417145,15z/data=!4m6!3m5!1s0xa401652378e7fb:0x1240cc2abab04eaf!8m2!3d-20.2800962!4d-43.7417145!16s%2Fg%2F12hkhnzkt?entry=tts&g_ep=EgoyMDI1MTAwNi4wIPu8ASoASAFQAw%3D%3D&skid=d2e69ca7-6a09-4af4-a03a-fb277667c229",
+    "latitude": -20.2800962,
+    "longitude": -43.7417145,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-014",
+    "name": "Filtragem Mina do Pico",
+    "resolved_url": "https://www.google.com/maps/place/Filtragem+Mina+do+Pico/@-20.2164761,-43.8705743,15z/data=!4m6!3m5!1s0xa6af98863c4cc5:0x7e0efe77247f5527!8m2!3d-20.2164761!4d-43.8705743!16s%2Fg%2F11pg_zt73k?entry=tts&g_ep=EgoyMDI1MTAwNi4wIPu8ASoASAFQAw%3D%3D&skid=7bf64938-68a4-45f1-8925-0d7eeffe033c",
+    "latitude": -20.2164761,
+    "longitude": -43.8705743,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-015",
+    "name": "CSN Mineração (Unidade Fernandinho)",
+    "resolved_url": "https://www.google.com/maps/place/CSN+Minera%C3%A7%C3%A3o+(Unidade+Fernandinho)/@-20.1898553,-43.8594977,15z/data=!4m6!3m5!1s0xa6a8c8a46743d9:0x643025f5cbb453d9!8m2!3d-20.1898553!4d-43.8594977!16s%2Fg%2F11c1v2hy04?entry=tts&g_ep=EgoyMDI1MTAwNi4wIPu8ASoASAFQAw%3D%3D&skid=111432a1-f4c9-46f5-8ca8-93bf2f788b20",
+    "latitude": -20.1898553,
+    "longitude": -43.8594977,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-016",
+    "name": "Vale S/A Portaria Mina Abóboras",
+    "resolved_url": "https://www.google.com/maps/place/Vale+S%2FA+-+Portaria+da+Mina+Ab%C3%B3boras/@-20.1832869,-43.8735391,15z/data=!4m6!3m5!1s0xa6af31f2034e53:0x3b9b44384e5eab08!8m2!3d-20.1832869!4d-43.8735391!16s%2Fg%2F11g697tdj8?entry=tts&g_ep=EgoyMDI1MTAwNi4wIPu8ASoASAFQAw%3D%3D&skid=7bb6dd1a-ce89-489c-9923-e78f5925d158",
+    "latitude": -20.1832869,
+    "longitude": -43.8735391,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-017",
+    "name": "SAFM Mineração",
+    "resolved_url": "https://www.google.com/maps/place/SAFM+Minera%C3%A7%C3%A3o/@-20.274859,-43.900543,15z/data=!4m6!3m5!1s0xa6ace4065bbd11:0xbcb5ff96948034c0!8m2!3d-20.274859!4d-43.900543!16s%2Fg%2F11c74ct2mv?entry=tts&g_ep=EgoyMDI1MTAwNi4wIPu8ASoASAFQAw%3D%3D&skid=8b9e48f7-43b3-4452-a0ae-9bea6ce515d9",
+    "latitude": -20.274859,
+    "longitude": -43.900543,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-018",
+    "name": "Rodofer Terminal de Cargas",
+    "resolved_url": "https://www.google.com/maps/place/Rodofer+Terminal+de+Cargas/@-20.239515,-44.9178711,14.75z/data=!4m6!3m5!1s0xa0a3d7beb1bdfb:0x7671a523420a0f9a!8m2!3d-20.2393283!4d-44.9206237!16s%2Fg%2F11mvpjds5h?entry=tts&g_ep=EgoyMDI1MTAwOC4wIPu8ASoASAFQAw%3D%3D&skid=2b9eeeaa-f66f-4603-8e05-012120f9588b",
+    "latitude": -20.2393283,
+    "longitude": -44.9206237,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-019",
+    "name": "Serraria Souza Heleno e material de constução ",
+    "resolved_url": "https://www.google.com/maps/place/Serraria+Souza+Heleno+Madereira+e+Materiais+de+Constru%C3%A7%C3%A3o+Congonhas/@-20.5242153,-43.8306501,15z/data=!4m6!3m5!1s0xa1594913437ef5:0x9b60ccf84697606b!8m2!3d-20.5242153!4d-43.8306501!16s%2Fg%2F11fqk5syft?entry=tts&g_ep=EgoyMDI1MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=1670ce5a-3c9f-4b00-be9e-4d50ad0dfb18",
+    "latitude": -20.5242153,
+    "longitude": -43.8306501,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-020",
+    "name": "Siderúrgica Gage",
+    "resolved_url": "https://www.google.com/maps/place/Sider%C3%BArgica+Gage/@-20.5896324,-43.7961126,15z/data=!4m6!3m5!1s0xa15ffef9359cf9:0x43d50fb234330a1c!8m2!3d-20.5896324!4d-43.7961126!16s%2Fg%2F11b6hf90tr?entry=tts&g_ep=EgoyMDI1MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=ef3f772a-0f1f-4e5a-94f8-e581c552b0dd",
+    "latitude": -20.5896324,
+    "longitude": -43.7961126,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-021",
+    "name": "Lhoist Mineração (Matozinhos)",
+    "resolved_url": "https://www.google.com/maps/place/Lhoist+minera%C3%A7%C3%A3o/data=!4m7!3m6!1s0xa667095aea922d:0x26392440e49d1862!8m2!3d-19.5262864!4d-44.0907128!16s%2Fg%2F11tfmr7yrb!19sChIJLZLqWglnpgARYhid5EAkOSY?skid=c15388d0-343a-49da-b531-bca6c3028b7f",
+    "latitude": -19.5262864,
+    "longitude": -44.0907128,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-022",
+    "name": "Lhoist  (São José da Lapa)",
+    "resolved_url": "https://www.google.com/maps/place/Lhoist/data=!4m7!3m6!1s0xa688129c36966f:0xf5c222c6632bb9e6!8m2!3d-19.6977383!4d-43.9533858!16s%2Fg%2F11cltpy017!19sChIJb5Y2nBKIpgAR5rkrY8YiwvU?skid=8febc53a-b4f2-4681-8c2c-148a12079814",
+    "latitude": -19.6977383,
+    "longitude": -43.9533858,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-023",
+    "name": "Cimento Liz (Vespasiano)",
+    "resolved_url": "https://www.google.com/maps/place/CIMENTOS+LIZ/data=!4m7!3m6!1s0xa67d5e1844e2f3:0x1582762eafa47058!8m2!3d-19.685616!4d-43.925277!16s%2Fg%2F1vzv4x04!19sChIJ8-JEGF59pgARWHCkry52ghU?skid=0c468177-0216-4a00-9516-9ee9f6abc6cc",
+    "latitude": -19.685616,
+    "longitude": -43.925277,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-024",
+    "name": "Cimento Nacional (Matozinhos)",
+    "resolved_url": "https://www.google.com/maps/place/cimento+nacional+matozinhos/data=!4m7!3m6!1s0xa667d1c3f4d53b:0x86f71d4207f80789!8m2!3d-19.5416499!4d-44.0805533!16s%2Fg%2F11p67cg8n9!19sChIJO9X0w9FnpgARiQf4B0Id94Y?skid=40ddedde-0394-462b-9afb-5e372e66b66e",
+    "latitude": -19.5416499,
+    "longitude": -44.0805533,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-025",
+    "name": "Grafita MG",
+    "resolved_url": "https://www.google.com/maps/place/Grafita+MG/data=!4m7!3m6!1s0xa72b017048dc2d:0x1705667764fde466!8m2!3d-20.095534!4d-44.439922!16s%2Fg%2F11f_0xjbsn!19sChIJLdxIcAErpwARZuT9ZHdmBRc?skid=fd062557-3f73-4871-af24-666c3c07f27f",
+    "latitude": -20.095534,
+    "longitude": -44.439922,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-026",
+    "name": "Usiminas (Mina Oeste Itatiaiuçu)",
+    "resolved_url": "https://www.google.com/maps/place/Minera%C3%A7%C3%A3o+Usiminas+Mina+Oeste/data=!4m7!3m6!1s0xa0d5c313b62b03:0xe146c2bfce5c6d07!8m2!3d-20.1638866!4d-44.4499634!16s%2Fg%2F11b773hbs_!19sChIJAyu2E8PVoAARB21czr_CRuE?skid=65cb32fb-946a-48e8-977c-5e2b913de375",
+    "latitude": -20.1638866,
+    "longitude": -44.4499634,
+    "status": "Extraído do link Maps"
+  },
+  {
+    "id": "unit-027",
+    "name": "Mineração Guaribas (Brumadinho)",
+    "resolved_url": "https://www.google.com/maps/place/Minera%C3%A7%C3%A3o+Guaribas/data=!4m7!3m6!1s0xa6cd583d414063:0x19375daddeee6549!8m2!3d-20.1910765!4d-44.18294!16s%2Fg%2F11j2485kpn!19sChIJY0BBPVjNpgARSWXu3q1dNxk?skid=c5624307-4944-4184-a772-47cae09296ec",
+    "latitude": -20.1910765,
+    "longitude": -44.18294,
+    "status": "Extraído do link Maps"
+  }
+]

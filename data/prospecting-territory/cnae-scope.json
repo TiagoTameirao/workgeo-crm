@@ -1,0 +1,189 @@
+{
+  "version": 5,
+  "source": "CNAEs encontrados na carga mensal de dados abertos CNPJ da Receita Federal; classificação de aderência é uma inferência comercial baseada nos segmentos já usados no CRM e no foco do usuário em volumetria/inventário.",
+  "review_required": true,
+  "categories": [
+    {
+      "id": "extracao-mineral",
+      "label": "Mineração, pedreiras e areais",
+      "tier": "Aderência direta a validar",
+      "cnae_prefixes": ["05", "07", "08", "09", "0600003"],
+      "rationale": "Atividades extrativas já presentes entre os segmentos da base e com potencial de pátios, pilhas ou estoques minerais. Inclui especificamente extração de areias betuminosas (0600003), não petróleo e gás em geral. CNAE não confirma operação nem necessidade de medição."
+    },
+    {
+      "id": "cimento-concreto-ceramica",
+      "label": "Cimento, concreto e minerais não metálicos",
+      "tier": "Aderência direta a validar",
+      "cnae_prefixes": ["232", "233", "234", "239"],
+      "rationale": "Correspondem a fabricantes de materiais minerais e concreto, compatíveis com inventário de insumos/estoques; cada empresa precisa ser qualificada."
+    },
+    {
+      "id": "siderurgia-metalurgia",
+      "label": "Siderurgia, metalurgia e fundição",
+      "tier": "Aderência direta a validar",
+      "cnae_prefixes": ["241", "242", "243", "244", "245"],
+      "rationale": "Segmentos da base e operações que podem manter matérias-primas, pilhas ou pátios industriais; CNAE não comprova esses ativos."
+    },
+    {
+      "id": "madeira-florestal",
+      "label": "Madeira e beneficiamento florestal",
+      "tier": "Aderência direta a validar",
+      "cnae_prefixes": ["021", "022", "161", "162"],
+      "rationale": "Segmento existente na base, com potencial de madeira empilhada e estoques; requer verificação de unidade operacional."
+    },
+    {
+      "id": "sucata-reciclagem",
+      "label": "Recuperação e comércio de sucatas",
+      "tier": "Aderência direta a validar",
+      "cnae_prefixes": ["383", "4687"],
+      "rationale": "Alinhado ao segmento sucateiro já presente no CRM e a pátios de materiais; CNAE não confirma área nem volume."
+    },
+    {
+      "id": "atacado-materiais-graneis",
+      "label": "Atacado de materiais, minerais, metais e fertilizantes",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["467", "4681", "4683", "4685", "4689", "4621"],
+      "rationale": "Atacadistas podem manter estoques a granel ou pátios; a aderência depende do produto e da instalação local."
+    },
+    {
+      "id": "armazenagem-carga",
+      "label": "Armazenagem e movimentação de cargas",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["4911", "5211", "5212"],
+      "rationale": "Operadores de carga/armazéns podem ter grandes estoques; não se assume que o local opere com materiais a granel."
+    },
+    {
+      "id": "depositos-materiais-construcao",
+      "label": "Depósitos e lojas de materiais de construção e madeira",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["4744099", "4744002", "4744005"],
+      "rationale": "Inclui lojas generalistas de materiais, madeira e outros materiais de construção. A seleção exclui ferragens e hidráulica; cada unidade precisa ser confirmada como pátio, depósito ou operação com estoque mensurável."
+    },
+    {
+      "id": "agro-graos-e-racoes",
+      "label": "Atacado e processamento de grãos, insumos agrícolas e rações",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["4622", "4623", "4632", "1061", "1062", "1063", "1064", "1065", "1066", "1069"],
+      "rationale": "Atacado e processamento de grãos, farinhas, matérias-primas agrícolas e rações podem manter estoques ou silos; a instalação e o volume precisam ser verificados."
+    },
+    {
+      "id": "fabricacao-fertilizantes",
+      "label": "Fabricação de fertilizantes e intermediários",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["2012", "2013"],
+      "rationale": "Fábricas podem armazenar insumos e produto a granel; o CNAE não confirma pátio, pilha ou possibilidade de medição."
+    },
+    {
+      "id": "tratamento-residuos",
+      "label": "Tratamento e destinação de resíduos não perigosos",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["3821100"],
+      "rationale": "Aterros e unidades de tratamento podem demandar volumetria periódica. O enquadramento exclui coleta e resíduos perigosos e ainda exige validação da unidade e da necessidade."
+    },
+    {
+      "id": "movimentacao-terra-e-obras-viarias",
+      "label": "Terraplenagem e obras de infraestrutura",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["4313400", "4211101", "4213800", "4222701"],
+      "rationale": "Obras de terra, rodovias, urbanização e redes de água/esgoto podem demandar medição de corte, aterro ou estoques temporários. O CNAE não comprova que a empresa execute essa etapa nem que a unidade esteja na obra."
+    },
+    {
+      "id": "demolicao-e-residuos-de-obra",
+      "label": "Demolição e resíduos de obra",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["4311801"],
+      "rationale": "Empresas de demolição podem lidar com volumes de entulho e materiais recuperáveis; a necessidade e o local de armazenamento devem ser confirmados."
+    },
+    {
+      "id": "estoques-agregados-construcao",
+      "label": "Areia, brita, cal, tijolos e telhas",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["4744004"],
+      "rationale": "O CNAE identifica varejo de materiais básicos que podem ser armazenados em pátios ou pilhas. Estoque mensurável e escala da unidade ainda precisam ser qualificados."
+    },
+    {
+      "id": "coleta-e-gestao-residuos-nao-perigosos",
+      "label": "Coleta e gestão de resíduos não perigosos",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["3811400", "3900500"],
+      "rationale": "Operadores de coleta, descontaminação e gestão podem manter áreas de triagem ou armazenamento temporário. A atividade cadastrada não comprova a existência de pátio ou pilha."
+    },
+    {
+      "id": "producao-e-beneficiamento-de-graos",
+      "label": "Produção e beneficiamento de grãos e cereais",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["0111301", "0111302", "0111303", "0111399", "0115600", "0119905", "1081301"],
+      "rationale": "Produtores de arroz, milho, trigo, outros cereais, soja, feijão e beneficiadores de café podem armazenar produção a granel. O porte e a presença de silo ou estoque na unidade devem ser confirmados."
+    },
+    {
+      "id": "apoio-producao-florestal",
+      "label": "Apoio à produção florestal",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["0230600"],
+      "rationale": "Serviços de apoio florestal podem operar pátios temporários de madeira ou biomassa; o código não confirma estoque próprio nem unidade de processamento."
+    },
+    {
+      "id": "pos-colheita-graos",
+      "label": "Serviços de pós-colheita e armazenagem agrícola",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["0163600"],
+      "rationale": "Atividades de pós-colheita podem incluir limpeza, secagem e preparação de produtos agrícolas com estoque mensurável. Silos, pátios e produtos armazenados precisam ser confirmados por unidade."
+    },
+    {
+      "id": "residuos-perigosos",
+      "label": "Coleta e tratamento de resíduos perigosos",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["3812200", "3822000"],
+      "rationale": "Operações de coleta e disposição podem ter áreas de armazenamento ou células com medição volumétrica. Incluir somente após qualificação especializada de licenças, riscos e restrições do local."
+    },
+    {
+      "id": "pedras-para-revestimento",
+      "label": "Comércio de pedras para revestimento",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["4744006"],
+      "rationale": "Lojas e depósitos podem manter placas e blocos de rocha em pátios ou áreas de estoque. Formato, escala e necessidade de inventário variam por unidade e devem ser verificados."
+    },
+    {
+      "id": "fabricacao-acucar-bruto",
+      "label": "Fabricação e estoque de açúcar bruto",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["1071600"],
+      "rationale": "A fabricação de açúcar bruto pode envolver produto e insumos armazenados a granel. O CNAE não confirma operação ativa, estoque aberto ou aplicabilidade da volumetria."
+    },
+    {
+      "id": "preparo-solo-agricultura",
+      "label": "Preparo de terreno agrícola e colheita",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["0161003"],
+      "rationale": "Prestadores podem atuar em preparo de terreno, movimentação de solo e colheita. O CNAE não confirma obra, pátio ou estoque, então a aderência depende de qualificação da operação."
+    },
+    {
+      "id": "moveis-madeira",
+      "label": "Fabricação de móveis de madeira",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["3101200"],
+      "rationale": "Fabricantes podem manter madeira, chapas e insumos empilhados. O volume, a área e a necessidade de inventário variam muito e precisam ser confirmados."
+    },
+    {
+      "id": "construcao-civil-canteiros",
+      "label": "Construção civil e preparação de canteiros",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["4120400", "4212000", "4221901", "4221902", "4221904", "4223500", "4299501", "4311802", "4319300", "4399105", "4399199"],
+      "rationale": "Construtoras e prestadores de preparação de terreno, obras especiais/redes, instalações esportivas e perfuração de poços podem precisar medir movimentação de solo ou estoques temporários. O CNAE não confirma obra ativa, pátio, material mensurável ou aderência da unidade; validar porte operacional, local e necessidade antes de priorizar abordagem. Aluguel e comércio de máquinas seguem fora porque indicam equipamento, não estoque volumétrico aderente."
+    },
+    {
+      "id": "armacoes-metalicas-construcao",
+      "label": "Armações metálicas para construção",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["2599301"],
+      "rationale": "Fabricantes de armações metálicas podem manter barras e perfis em estoque; medição volumétrica só faz sentido se houver pátio, escala e processo de inventário compatíveis. O CNAE não confirma materiais, formato de armazenamento nem necessidade e deve permanecer em validação comercial."
+    },
+    {
+      "id": "cafeicultura-e-beneficiamento",
+      "label": "Cafeicultura e torrefação de café",
+      "tier": "Aderência adjacente a revisar",
+      "cnae_prefixes": ["0134200", "1081302"],
+      "rationale": "Cultivo, torrefação e moagem de café podem envolver grãos secos estocados em sacarias ou silos. O CNAE não comprova estrutura de armazenagem, escala ou necessidade de medição volumétrica; qualificar cada unidade e processo."
+    }
+  ]
+}

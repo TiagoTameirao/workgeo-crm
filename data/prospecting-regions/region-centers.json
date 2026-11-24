@@ -1,0 +1,56 @@
+{
+  "title": "Pontos de referência dos recortes de prospecção WorkGeo",
+  "source_date": "2026-10-29",
+  "classification": "Referências geográficas para triagem comercial; não representam endereço confirmado da WorkGeo, sede ou estabelecimento.",
+  "distance_method": "Distância geodésica calculada pela fórmula de Haversine, raio médio terrestre 6.371.008,8 m.",
+  "regions": [
+    {
+      "id": "belo-horizonte-170km",
+      "name": "Belo Horizonte",
+      "city": "Belo Horizonte",
+      "uf": "MG",
+      "center": { "latitude": -19.91409, "longitude": -43.993162 },
+      "radius_km": 170,
+      "center_status": "Provisório — ajustado ao contorno KML existente; não confirmado como ponto central pela WorkGeo.",
+      "center_source": "workgeo-crm/deliverables/prospecting-cnpj/territory-radius-170km-review.md; ajuste circular reprodutível do KML original em 2026-10-14.",
+      "area_source": "data/area_170km.original.kml; a base de candidatos atual preserva os 269 municípios que intersectam este contorno.",
+      "municipality_rule": "Municípios que intersectam o KML existente. O círculo de 170 km é mostrado como referência comparativa; o KML continua sendo a cobertura histórica.",
+      "limitations": [
+        "O centro do KML permanece provisório e ainda depende de confirmação humana.",
+        "Cinco municípios intersectam o KML, mas não o círculo de 170 km; permanecem associados à cobertura histórica para preservar dados existentes."
+      ]
+    },
+    {
+      "id": "volta-redonda-100km",
+      "name": "Volta Redonda",
+      "city": "Volta Redonda",
+      "uf": "RJ",
+      "center": { "latitude": -22.5085649, "longitude": -44.0942387 },
+      "radius_km": 100,
+      "center_status": "Ponto de referência aproximado do Palácio 17 de Julho (Prefeitura Municipal); endereço e ponto geocodificado não confirmam endereço da WorkGeo.",
+      "center_source": "Endereço público da sede municipal: Praça Sávio Gama, 53, Centro (Prefeitura Municipal de Volta Redonda, documento oficial: https://www2.voltaredonda.rj.gov.br/transparencia/mod/licitacao/contratos/pgm/files/2018/Contrato%20107.2018%20loca%C3%A7%C3%A3o%20imoveis%20SEPLAG.pdf). Pino geocodificado no OpenStreetMap/Nominatim em 2026-10-29: https://nominatim.openstreetmap.org/search?q=Pal%C3%A1cio%2017%20de%20Julho%2C%20Volta%20Redonda%2C%20Brasil&format=jsonv2&limit=1.",
+      "area_source": "Malhas municipais do IBGE consultadas pela API de malhas em 2026-10-29; versão municipal mais recente publicada: 2025.",
+      "municipality_rule": "Inclui município cujo polígono intersecte o círculo geodésico de 100 km, inclusive tangência.",
+      "limitations": [
+        "O ponto de referência é municipal e aproximado, não endereço confirmado da WorkGeo.",
+        "A interseção do município define o universo de busca e não prova que cada estabelecimento esteja dentro do raio."
+      ]
+    },
+    {
+      "id": "campinas-250km",
+      "name": "Campinas",
+      "city": "Campinas",
+      "uf": "SP",
+      "center": { "latitude": -22.9009117, "longitude": -47.0572706 },
+      "radius_km": 250,
+      "center_status": "Ponto de referência aproximado do Paço Municipal/Palácio dos Jequitibás; endereço e ponto geocodificado não confirmam endereço da WorkGeo.",
+      "center_source": "Endereço municipal atual: Paço Municipal, Av. Anchieta, 200, Centro (Prefeitura de Campinas: https://campinas.sp.gov.br/sites/agiliza/agiliza-campinas-unidades). Pino geocodificado no OpenStreetMap/Nominatim em 2026-10-29: https://nominatim.openstreetmap.org/search?q=Avenida%20Anchieta%20200%2C%20Campinas%2C%20S%C3%A3o%20Paulo&format=jsonv2&limit=1.",
+      "area_source": "Malhas municipais do IBGE consultadas pela API de malhas em 2026-10-29; versão municipal mais recente publicada: 2025.",
+      "municipality_rule": "Inclui município cujo polígono intersecte o círculo geodésico de 250 km, inclusive tangência. Pesquisa todas as UFs.",
+      "limitations": [
+        "O ponto de referência é municipal e aproximado, não endereço confirmado da WorkGeo.",
+        "A interseção do município define o universo de busca e não prova que cada estabelecimento esteja dentro do raio."
+      ]
+    }
+  ]
+}

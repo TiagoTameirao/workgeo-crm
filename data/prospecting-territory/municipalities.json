@@ -1,0 +1,2442 @@
+{
+  "title": "Municípios que intersectam a área de prospecção WorkGeo",
+  "classification": "RECORTE GEOGRÁFICO; não é lista de empresas nem confirmação de aderência comercial.",
+  "generated_at": "2026-10-13T23:00:17.036Z",
+  "polygon_source": "data/area_170km.original.kml",
+  "polygon_vertices_including_closure": 73,
+  "boundary_source": "Malhas municipais e API de Localidades do IBGE, consultadas em tempo de execução.",
+  "boundary_api": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/{UF}?formato=application/vnd.geo+json&intrarregiao=municipio&qualidade=minima",
+  "municipality_api": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/{UF}/municipios",
+  "inclusion_rule": "Inclui município cujo polígono tenha área ou contato de borda com o polígono KML. Sedes fora do KML podem ser incluídas quando parte do território municipal intersecta a área.",
+  "limitations": [
+    "A malha municipal representa limites administrativos; não valida estrada, tempo de viagem nem acesso operacional.",
+    "A interseção indica cobertura territorial, não existência de empresa elegível.",
+    "O resultado preserva a geometria do KML; não recalcula um círculo de 170 km."
+  ],
+  "source_date": "2026-10-13",
+  "municipalities_count": 269,
+  "states_count": 1,
+  "municipalities": [
+    {
+      "ibge_code": "3100203",
+      "municipality": "Abaeté",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3100302",
+      "municipality": "Abre Campo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3100401",
+      "municipality": "Acaiaca",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3100500",
+      "municipality": "Açucena",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3101631",
+      "municipality": "Alfredo Vasconcelos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3102100",
+      "municipality": "Alto Rio Doce",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3102308",
+      "municipality": "Alvinópolis",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3102407",
+      "municipality": "Alvorada de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3102506",
+      "municipality": "Amparo do Serra",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3102902",
+      "municipality": "Antônio Carlos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3103009",
+      "municipality": "Antônio Dias",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3103207",
+      "municipality": "Araçaí",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3103306",
+      "municipality": "Aracitaba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3103702",
+      "municipality": "Araponga",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3103900",
+      "municipality": "Araújos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3104205",
+      "municipality": "Arcos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3105004",
+      "municipality": "Baldim",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3105400",
+      "municipality": "Barão de Cocais",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3105608",
+      "municipality": "Barbacena",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3105707",
+      "municipality": "Barra Longa",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3105905",
+      "municipality": "Barroso",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3106002",
+      "municipality": "Bela Vista de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3106200",
+      "municipality": "Belo Horizonte",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3106309",
+      "municipality": "Belo Oriente",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3106408",
+      "municipality": "Belo Vale",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3106705",
+      "municipality": "Betim",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3107406",
+      "municipality": "Bom Despacho",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3107703",
+      "municipality": "Bom Jesus do Amparo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3107802",
+      "municipality": "Bom Jesus do Galho",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3108008",
+      "municipality": "Bom Sucesso",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3108107",
+      "municipality": "Bonfim",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3108701",
+      "municipality": "Brás Pires",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3108800",
+      "municipality": "Braúnas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3109006",
+      "municipality": "Brumadinho",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3109600",
+      "municipality": "Cachoeira da Prata",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3109907",
+      "municipality": "Caetanópolis",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3110004",
+      "municipality": "Caeté",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3110202",
+      "municipality": "Cajuri",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3110400",
+      "municipality": "Camacho",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3111200",
+      "municipality": "Campo Belo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3111903",
+      "municipality": "Cana Verde",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3111705",
+      "municipality": "Canaã",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3112000",
+      "municipality": "Candeias",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3112208",
+      "municipality": "Capela Nova",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3112505",
+      "municipality": "Capim Branco",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3113107",
+      "municipality": "Caranaíba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3113206",
+      "municipality": "Carandaí",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3113404",
+      "municipality": "Caratinga",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3113800",
+      "municipality": "Carmésia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3114006",
+      "municipality": "Carmo da Mata",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3114204",
+      "municipality": "Carmo do Cajuru",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3114501",
+      "municipality": "Carmópolis de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3114600",
+      "municipality": "Carrancas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3114907",
+      "municipality": "Casa Grande",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3115359",
+      "municipality": "Catas Altas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3115409",
+      "municipality": "Catas Altas da Noruega",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3116308",
+      "municipality": "Cipotânea",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3116605",
+      "municipality": "Cláudio",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3116704",
+      "municipality": "Coimbra",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3115201",
+      "municipality": "Conceição da Barra de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3117504",
+      "municipality": "Conceição do Mato Dentro",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3117603",
+      "municipality": "Conceição do Pará",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3117876",
+      "municipality": "Confins",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3118007",
+      "municipality": "Congonhas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3118106",
+      "municipality": "Congonhas do Norte",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3118304",
+      "municipality": "Conselheiro Lafaiete",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3118601",
+      "municipality": "Contagem",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3118908",
+      "municipality": "Cordisburgo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3119104",
+      "municipality": "Corinto",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3119401",
+      "municipality": "Coronel Fabriciano",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3119708",
+      "municipality": "Coronel Xavier Chaves",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3119955",
+      "municipality": "Córrego Fundo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3120003",
+      "municipality": "Córrego Novo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3120409",
+      "municipality": "Cristiano Otoni",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3120607",
+      "municipality": "Crucilândia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3120904",
+      "municipality": "Curvelo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3121001",
+      "municipality": "Datas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3121407",
+      "municipality": "Desterro de Entre Rios",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3121506",
+      "municipality": "Desterro do Melo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3121605",
+      "municipality": "Diamantina",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3121704",
+      "municipality": "Diogo de Vasconcelos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3121803",
+      "municipality": "Dionísio",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3121902",
+      "municipality": "Divinésia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3122306",
+      "municipality": "Divinópolis",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3122603",
+      "municipality": "Dom Joaquim",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3122702",
+      "municipality": "Dom Silvério",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3123007",
+      "municipality": "Dores de Campos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3123106",
+      "municipality": "Dores de Guanhães",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3123205",
+      "municipality": "Dores do Indaiá",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3123304",
+      "municipality": "Dores do Turvo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3123908",
+      "municipality": "Entre Rios de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3124005",
+      "municipality": "Ervália",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3124104",
+      "municipality": "Esmeraldas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3125705",
+      "municipality": "Felixlândia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3125903",
+      "municipality": "Ferros",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3126000",
+      "municipality": "Florestal",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3126109",
+      "municipality": "Formiga",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3126406",
+      "municipality": "Fortuna de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3127206",
+      "municipality": "Funilândia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3127602",
+      "municipality": "Gouveia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3128006",
+      "municipality": "Guanhães",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3128204",
+      "municipality": "Guaraciaba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3129400",
+      "municipality": "Ibertioga",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3129806",
+      "municipality": "Ibirité",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3130002",
+      "municipality": "Ibituruna",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3130101",
+      "municipality": "Igarapé",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3130200",
+      "municipality": "Igaratinga",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3130408",
+      "municipality": "Ijaci",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3131000",
+      "municipality": "Inhaúma",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3131109",
+      "municipality": "Inimutaba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3131307",
+      "municipality": "Ipatinga",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3131703",
+      "municipality": "Itabira",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3131901",
+      "municipality": "Itabirito",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3132206",
+      "municipality": "Itaguara",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3132800",
+      "municipality": "Itambé do Mato Dentro",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3133501",
+      "municipality": "Itapecerica",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3133709",
+      "municipality": "Itatiaiuçu",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3133808",
+      "municipality": "Itaúna",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3133907",
+      "municipality": "Itaverava",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3134301",
+      "municipality": "Itumirim",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3134509",
+      "municipality": "Itutinga",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3134608",
+      "municipality": "Jaboticatubas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3135001",
+      "municipality": "Jaguaraçu",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3135308",
+      "municipality": "Japaraíba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3135407",
+      "municipality": "Jeceaba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3135506",
+      "municipality": "Jequeri",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3135704",
+      "municipality": "Jequitibá",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3136108",
+      "municipality": "Joanésia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3136207",
+      "municipality": "João Monlevade",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3136652",
+      "municipality": "Juatuba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3137205",
+      "municipality": "Lagoa da Prata",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3137403",
+      "municipality": "Lagoa Dourada",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3137601",
+      "municipality": "Lagoa Santa",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3137908",
+      "municipality": "Lamim",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3138203",
+      "municipality": "Lavras",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3138302",
+      "municipality": "Leandro Ferreira",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3138807",
+      "municipality": "Luz",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3139102",
+      "municipality": "Madre de Deus de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3139706",
+      "municipality": "Maravilhas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3140001",
+      "municipality": "Mariana",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3140159",
+      "municipality": "Mário Campos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3140308",
+      "municipality": "Marliéria",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3140506",
+      "municipality": "Martinho Campos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3140704",
+      "municipality": "Mateus Leme",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3140902",
+      "municipality": "Matipó",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3141108",
+      "municipality": "Matozinhos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3141603",
+      "municipality": "Mercês",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3141702",
+      "municipality": "Mesquita",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3142304",
+      "municipality": "Moeda",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3142403",
+      "municipality": "Moema",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3142502",
+      "municipality": "Monjolos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3143500",
+      "municipality": "Morada Nova de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3143609",
+      "municipality": "Morro da Garça",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3143708",
+      "municipality": "Morro do Pilar",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3144508",
+      "municipality": "Nazareno",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3144706",
+      "municipality": "Nova Era",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3144805",
+      "municipality": "Nova Lima",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3145208",
+      "municipality": "Nova Serrana",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3136603",
+      "municipality": "Nova União",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3145604",
+      "municipality": "Oliveira",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3145703",
+      "municipality": "Oliveira Fortes",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3145802",
+      "municipality": "Onça de Pitangui",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3145851",
+      "municipality": "Oratórios",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3145901",
+      "municipality": "Ouro Branco",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3146107",
+      "municipality": "Ouro Preto",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3146404",
+      "municipality": "Paineiras",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3146503",
+      "municipality": "Pains",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3146602",
+      "municipality": "Paiva",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3146909",
+      "municipality": "Papagaios",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3147105",
+      "municipality": "Pará de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3147402",
+      "municipality": "Paraopeba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3147709",
+      "municipality": "Passa Tempo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3147501",
+      "municipality": "Passabém",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3148301",
+      "municipality": "Paula Cândido",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3148806",
+      "municipality": "Pedra do Anta",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3148905",
+      "municipality": "Pedra do Indaiá",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3149309",
+      "municipality": "Pedro Leopoldo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3149606",
+      "municipality": "Pequi",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3149705",
+      "municipality": "Perdigão",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3149903",
+      "municipality": "Perdões",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3150208",
+      "municipality": "Piedade de Ponte Nova",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3150307",
+      "municipality": "Piedade do Rio Grande",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3150406",
+      "municipality": "Piedade dos Gerais",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3150539",
+      "municipality": "Pingo-d'Água",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3150604",
+      "municipality": "Piracema",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3150802",
+      "municipality": "Piranga",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3151305",
+      "municipality": "Piraúba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3151404",
+      "municipality": "Pitangui",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3152006",
+      "municipality": "Pompéu",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3152105",
+      "municipality": "Ponte Nova",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3152303",
+      "municipality": "Porto Firme",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3152709",
+      "municipality": "Prados",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3153103",
+      "municipality": "Presidente Bernardes",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3153202",
+      "municipality": "Presidente Juscelino",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3153301",
+      "municipality": "Presidente Kubitschek",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3153608",
+      "municipality": "Prudente de Morais",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3153707",
+      "municipality": "Quartel Geral",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3153806",
+      "municipality": "Queluzito",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3153905",
+      "municipality": "Raposos",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3154002",
+      "municipality": "Raul Soares",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3154200",
+      "municipality": "Resende Costa",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3154408",
+      "municipality": "Ressaquinha",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3154606",
+      "municipality": "Ribeirão das Neves",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3154804",
+      "municipality": "Rio Acima",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3154903",
+      "municipality": "Rio Casca",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3155009",
+      "municipality": "Rio Doce",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3155207",
+      "municipality": "Rio Espera",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3155306",
+      "municipality": "Rio Manso",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3155702",
+      "municipality": "Rio Piracicaba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3155801",
+      "municipality": "Rio Pomba",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3156106",
+      "municipality": "Ritápolis",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3156700",
+      "municipality": "Sabará",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3156809",
+      "municipality": "Sabinópolis",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3157203",
+      "municipality": "Santa Bárbara",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3157302",
+      "municipality": "Santa Bárbara do Tugúrio",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3157336",
+      "municipality": "Santa Cruz de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3157401",
+      "municipality": "Santa Cruz do Escalvado",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3157807",
+      "municipality": "Santa Luzia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3158003",
+      "municipality": "Santa Maria de Itabira",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3158508",
+      "municipality": "Santana de Pirapama",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3158805",
+      "municipality": "Santana do Jacaré",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3158953",
+      "municipality": "Santana do Paraíso",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3159001",
+      "municipality": "Santana do Riacho",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3159100",
+      "municipality": "Santana dos Montes",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3159902",
+      "municipality": "Santo Antônio do Amparo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3160108",
+      "municipality": "Santo Antônio do Grama",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3160207",
+      "municipality": "Santo Antônio do Itambé",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3160405",
+      "municipality": "Santo Antônio do Monte",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3160504",
+      "municipality": "Santo Antônio do Rio Abaixo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3160603",
+      "municipality": "Santo Hipólito",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3160702",
+      "municipality": "Santos Dumont",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3160900",
+      "municipality": "São Brás do Suaçuí",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3161007",
+      "municipality": "São Domingos do Prata",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3161205",
+      "municipality": "São Francisco de Paula",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3161502",
+      "municipality": "São Geraldo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3161809",
+      "municipality": "São Gonçalo do Pará",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3161908",
+      "municipality": "São Gonçalo do Rio Abaixo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3162500",
+      "municipality": "São João del Rei",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3162922",
+      "municipality": "São Joaquim de Bicas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3162955",
+      "municipality": "São José da Lapa",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3163102",
+      "municipality": "São José da Varginha",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3163409",
+      "municipality": "São José do Goiabal",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3163805",
+      "municipality": "São Miguel do Anta",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3164001",
+      "municipality": "São Pedro dos Ferros",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3164605",
+      "municipality": "São Sebastião do Oeste",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3164803",
+      "municipality": "São Sebastião do Rio Preto",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3165008",
+      "municipality": "São Tiago",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3165537",
+      "municipality": "Sarzedo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3165560",
+      "municipality": "Sem-Peixe",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3165701",
+      "municipality": "Senador Firmino",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3166006",
+      "municipality": "Senhora de Oliveira",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3166105",
+      "municipality": "Senhora do Porto",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3166204",
+      "municipality": "Senhora dos Remédios",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3166303",
+      "municipality": "Sericita",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3167103",
+      "municipality": "Serro",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3167202",
+      "municipality": "Sete Lagoas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3167301",
+      "municipality": "Silveirânia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3167905",
+      "municipality": "Tabuleiro",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3168309",
+      "municipality": "Taquaraçu de Minas",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3168507",
+      "municipality": "Teixeiras",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3168705",
+      "municipality": "Timóteo",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3168804",
+      "municipality": "Tiradentes",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3169000",
+      "municipality": "Tocantins",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3169901",
+      "municipality": "Ubá",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3170503",
+      "municipality": "Urucânia",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3170578",
+      "municipality": "Vargem Alegre",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3171204",
+      "municipality": "Vespasiano",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3171303",
+      "municipality": "Viçosa",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    },
+    {
+      "ibge_code": "3172004",
+      "municipality": "Visconde do Rio Branco",
+      "state_code": "31",
+      "state": "MG",
+      "state_name": "Minas Gerais",
+      "intersects_kml": true,
+      "evidence": "Interseção geométrica do limite municipal com o contorno KML."
+    }
+  ]
+}

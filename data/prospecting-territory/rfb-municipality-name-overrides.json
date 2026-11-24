@@ -1,0 +1,17 @@
+[
+  {
+    "ibge_municipality": "Amparo do Serra",
+    "receita_municipality": "Amparo da Serra",
+    "reason": "O domínio MUNICCSV da carga RFB 2026-10 apresenta ‘AMPARO DA SERRA’; o cadastro territorial atual do IBGE apresenta ‘Amparo do Serra’. Revisar quando a Receita atualizar o domínio."
+  },
+  {
+    "ibge_municipality": "Paraty",
+    "receita_municipality": "Parati",
+    "reason": "O domínio MUNICCSV da carga RFB 2026-10 apresenta ‘PARATI’; o cadastro territorial atual do IBGE apresenta ‘Paraty’. Revisar quando a Receita atualizar o domínio."
+  },
+  {
+    "ibge_municipality": "Brazópolis",
+    "receita_municipality": "Brasopolis",
+    "reason": "O domínio MUNICCSV da carga RFB 2026-10 apresenta ‘BRASOPOLIS’ sem acento; o cadastro territorial do IBGE apresenta ‘Brazópolis’. Revisar quando a Receita atualizar o domínio."
+  }
+]

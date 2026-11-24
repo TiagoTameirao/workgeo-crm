@@ -1,0 +1,17 @@
+runtime/
+tmp/
+backups/
+deliverables/
+tests/
+.agents/
+.playwright-mcp/
+data/*.xlsx
+
+app/.well-known/workflow/
+
+.env*
+.vercel/
+.next/
+node_modules/
+.swc/
+*.tsbuildinfo
